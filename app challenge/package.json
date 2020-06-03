@@ -1,0 +1,14 @@
+{
+  "name": "app-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss build css/tailwind.css -o public/tailwind.css"
+  },
+  "author": "Keven",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^1.4.6"
+  }
+}
