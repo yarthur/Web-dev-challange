@@ -1,0 +1,34 @@
+[
+  {
+    "model": "newsblender.articleCategory",
+    "pk": 1,
+    "fields": {
+      "article": 1,
+      "category": 1
+    }
+  },
+  {
+    "model": "newsblender.articleCategory",
+    "pk": 2,
+    "fields": {
+      "article": 1,
+      "category": 4
+    }
+  },
+  {
+    "model": "newsblender.articleCategory",
+    "pk": 3,
+    "fields": {
+      "article": 2,
+      "category": 3
+    }
+  },
+  {
+    "model": "newsblender.articleCategory",
+    "pk": 4,
+    "fields": {
+      "article": 3,
+      "category": 2
+    }
+  }
+]

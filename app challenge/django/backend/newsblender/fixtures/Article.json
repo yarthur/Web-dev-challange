@@ -1,0 +1,35 @@
+[
+  {
+    "model": "newsblender.article",
+    "pk": 1,
+    "fields": {
+      "title": "Article 1",
+      "link": "https://www.cnn.com",
+      "description": "<p>Things happened, and this story will tell you all about it.</p>",
+      "author": "A Writer",
+      "pub_date": "2020-05-06"
+    }
+  },
+  {
+    "model": "newsblender.article",
+    "pk": 2,
+    "fields": {
+      "title": "Article 2",
+      "link": "https://www.nytimes.com",
+      "description": "<p>Django is pretty cool, and I'm enjoying it so far.</p>",
+      "author": "John",
+      "pub_date": "2020-06-06"
+    }
+  },
+  {
+    "model": "newsblender.article",
+    "pk": 3,
+    "fields": {
+      "title": "Article 3",
+      "link": "https://www.netflix.com",
+      "description": "<p>Stranger Things is a show on Netflix.</p>",
+      "author": "Netflix",
+      "pub_date": "2020-04-06"
+    }
+  }
+]
