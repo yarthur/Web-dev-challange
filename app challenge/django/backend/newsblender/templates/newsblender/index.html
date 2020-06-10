@@ -63,9 +63,11 @@
 						{% if article_list %}
 							<ul>
 								{% for article in article_list %}
-									<li>
+									<li style="border-bottom: 1px solid;">
 										<h2><a href="{{ article.link }}">{{ article.title }}</a></h2>
-										{{ article.author }}<br />
+										{% if article.author %}
+											{{ article.author }}<br />
+										{% endif %}
 										{{ article.pub_date }}<br />
 
 										{% autoescape off %}
@@ -79,5 +81,6 @@
                 </div>
             </div>
     </main>
+
 </body>
 </html>
