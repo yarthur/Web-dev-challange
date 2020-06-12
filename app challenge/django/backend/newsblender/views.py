@@ -8,7 +8,7 @@ from newsfeedUpdater import newsfeedApi
 # Create your views here.
 
 def update(request):
-	newsfeedApi.update_newsfeed()
+	newsfeedApi.update_all_newsfeeds()
 	return redirect(index)
   
 
