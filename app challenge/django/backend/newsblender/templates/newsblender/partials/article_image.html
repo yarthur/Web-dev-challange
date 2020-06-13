@@ -1,0 +1,6 @@
+{% if article.imageSrc %}
+	<img class="w-full" src="{{ article.imageSrc }}" alt="" />
+{% elif article.feed.imageHref %}
+	<img class="w-full" src="{{ article.feed.imageHref}}" alt="" />
+{% endif %}
+

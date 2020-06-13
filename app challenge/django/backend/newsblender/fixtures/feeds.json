@@ -1,0 +1,30 @@
+[
+  {
+    "model": "newsblender.feed",
+    "pk": 1,
+    "fields": {
+      "name": "New York Times",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+      "imageSrc": "('https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png',)"
+    }
+  },
+  {
+    "model": "newsblender.feed",
+    "pk": 2,
+    "fields": {
+      "name": "Polygon",
+      "url": "https://www.polygon.com/rss/index.xml",
+      "imageSrc": "(None,)"
+    }
+  },
+  {
+    "model": "newsblender.feed",
+    "pk": 3,
+    "fields": {
+      "name": "Fox News",
+      "url": "http://feeds.foxnews.com/foxnews/latest",
+      "imageSrc": "('http://tools.foxnews.com/sites/tools.foxnews.com/files/images/fox-news-logo.png',)"
+    }
+  }
+]
+
